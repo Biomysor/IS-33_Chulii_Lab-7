@@ -1,12 +1,41 @@
 body{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     
 }
-.MyTask{
+.MyTask2,.MyTask10{
     background-color: rgb(120, 194, 10);
-    height: 400px;
+    height: 450px;
+    width: 300px ;
+    text-align: center;
+    margin: 20px;
+    transition: all 1s ease;
+}
+.MyTask4,.MyTask8{
+    background-color: rgb(120, 194, 10);
+    height: 450px;
+    width: 300px ;
+    text-align: center;
+    margin: 20px;
+    transition: all 1s ease;
+}
+#square {
+    width: 50px;
+    height: 50px;
+    border-color: red;
+    border-width: 10px;
+    border-style: dashed;
+    margin: 20px auto;
+}
+#decreaseButton,#increaseButton{
+    height: 20px;
+    width: 80px;
+   
+}
+.MyTask6{
+    background-color: rgb(120, 194, 10);
+    height: 450px;
     width: 300px ;
     text-align: center;
     transition: all 1s ease;
@@ -17,7 +46,7 @@ button{
     transition: all 1s ease;
     height: 50px;
     width: 120px;
-    
+    margin: 20px;
 }
 ul {
     font-size: x-large;
@@ -34,4 +63,18 @@ button:hover{
 h1{
     transition: all 1s ease;
     font-size: xxx-large;
+}
+label{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+}
+#lol{
+    height: 20px;
+    width: 80px;
+}
+#lol1{
+    height: 20px;
+    width: 80px;
+    margin-left: 100px;
 }
